@@ -32,3 +32,6 @@ class Report
     @formater.out_report(@title, @text)
   end
 end
+
+test = Report.new(PlainFormater.new)
+p test.out_report
