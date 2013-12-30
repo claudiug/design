@@ -33,6 +33,6 @@ class Writer
 
 end
 
-writer = Writer.new('out.txt')
+writer = Writer.new('out1.txt')
 writer.write_line('Here is my text')
 puts "out: #{writer.check_sum}"
